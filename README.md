@@ -8,7 +8,7 @@ pragma solidity >=0.6.12 <0.9.0;
 // Module 1 Smart Contract Project
 contract SmartContractArlos 
 {
-  uint private arlosvalue;
+  uint public arlosvalue;
 
   //On this contract, I have name a function, setArlosValue that takes an input _value. 
   function setArlosValue(uint _value) external 
