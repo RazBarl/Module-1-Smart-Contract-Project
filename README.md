@@ -24,8 +24,7 @@ contract SmartContractArlos
     assert(_value >= 100);
 
     //Revert Statement 
-    //This statement is used to exit the function execution and revert any changes made 
-    //before calling this function if a certain condition is met. 
+    //This statement is used to exit the function execution and revert any changes made before calling this function if a certain condition is met. 
     //Here, we check if _value exceeds 1000, in which case we throw an exception with the specified error message.
     if (_value > 1000) 
     {
@@ -37,7 +36,6 @@ contract SmartContractArlos
   }
   
 }
-
 # Author
 NTC
 
